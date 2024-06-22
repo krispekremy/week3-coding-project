@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-success">
+<!-- This is my navbar! I copied it from the documentation and just changed out the text on each link. I also made sure that on each individual page, its own link would be # instead of reloading the page with the actual link to the page. -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Mason's Site</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="senza.html">My Band</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="games.html">Games</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Bands I like
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="screamo.html">Screamo</a></li>
+                  <li><a class="dropdown-item" href="pop.html">Pop</a></li>
+                  <li><a class="dropdown-item" href="r'n'b.html">R'n'B</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- I've got my main title here with a header1 element and some bootstrap to center the text and give it margin on top and bottom. Using the bootstrap grid below as wewll to say out the picture to the left of all the text! -->
+      <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="mb-5 mt-5 text-center">Welcome to my site!</h1>
+            </div>
+        </div>
+        </div>
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-md-3 img-fluid">
+                   <img src="https://lastfm.freetls.fastly.net/i/u/ar0/c7e028004ec6bef2190ff793a574a388.jpg" alt="A picture of my bandmates playing" width="70%">
+                </div>
+                <div class="col">
+                    <p class="text-center ">This is where you'll find my cool website where I'll tell you just a little bit about the games I like and the music I play and the music I like! There won't be a whole lot on each page, but just enough to get the point across. Please enjoy!!! You can check the boxes below once you've visited every page here.</p>
+                </div>
+            </div>
+      </div>
+      <!--This code below is a form checkbox! I copied the code from the documentation and added a few more checkboxes. I also set the first one to be default being checked because since you're on the Home page, it should be checked automatically! Don't know yet how to make it so it remembers your checkboxes if you leave and come back. Probably a cookie? I dunno. -->
+      <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Home
+                    </label>
+                  </div>                  
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      My Band
+                    </label>
+                  </div>                  
+            </div>
+        </div><div class="row">
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Games
+                    </label>
+                  </div>                  
+            </div>
+        </div><div class="row">
+            <div class="col">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      All the Bands I like
+                    </label>
+                  </div>                  
+            </div>
+        </div>
+      </div>
+      
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

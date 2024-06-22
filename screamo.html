@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skramz</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Mason's Site</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="senza.html">My Band</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="games.html">Games</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Bands I like
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Screamo</a></li>
+                  <li><a class="dropdown-item" href="pop.html">Pop</a></li>
+                  <li><a class="dropdown-item" href="r'n'b.html">R'n'B</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Here is my bootstrap table code! I made it dark and striped which I think looks nice. Also all these bands are very very good. -->
+      <table class="table table-striped table-dark">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Bandname</th>
+            <th scope="col">Subgenre</th>
+            <th scope="col">Bandcamp</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>The Caution Children</td>
+            <td>Shoegaze</td>
+            <td>
+                <a href="https://thecautionchildren.bandcamp.com/">Link!</a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Infant Island</td>
+            <td>Blackgaze</td>
+            <td>
+                <a href="https://infantisland.bandcamp.com/">Link!</a>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>...who calls so loud</td>
+            <td>Post-Rock</td>
+            <td>
+                <a href="https://adagio830-records.bandcamp.com/album/who-calls-so-loud">Link!</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
